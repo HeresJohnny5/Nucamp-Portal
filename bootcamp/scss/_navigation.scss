@@ -1,20 +1,45 @@
 nav {
   background-color: $purple-dark;
   box-shadow: 2px 2px 50px #c9c9c9;
-  position: fixed;
-  top: 0;
-  left: 0;
   height: 100vh;
   overflow: scroll;
-  width: 20rem;
-}
 
-.cohort-title {
-  display: flex;
+  #home {
+    &:hover {
+      text-decoration: none;
+    }
 
-  .fa-circle {
-    color: $purple-light;
+    h5 {
+      color: $white;
+    }
   }
 }
 
-@import './variables';
+#accordion {
+  .cohort {
+    &__title {
+      display: grid;
+      grid-template-columns: 80% 20%;
+
+      h6 {
+        color: $white;
+      }
+
+      .fa-circle {
+        color: $purple-light;
+      }
+    }
+
+    &__weeks-container {
+      &__weeks {
+        list-style: none;
+
+        li {
+          a {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

@@ -6,14 +6,22 @@
 nav {
   background-color: #8a3685;
   box-shadow: 2px 2px 50px #c9c9c9;
-  position: fixed;
-  top: 0;
-  left: 0;
   height: 100vh;
-  overflow: scroll;
-  width: 20rem; }
+  overflow: scroll; }
+  nav #home:hover {
+    text-decoration: none; }
+  nav #home h5 {
+    color: #ffffff; }
 
-.cohort-title {
-  display: flex; }
-  .cohort-title .fa-circle {
+#accordion .cohort__title {
+  display: grid;
+  grid-template-columns: 80% 20%; }
+  #accordion .cohort__title h6 {
+    color: #ffffff; }
+  #accordion .cohort__title .fa-circle {
     color: #af4ea9; }
+
+#accordion .cohort__weeks-container__weeks {
+  list-style: none; }
+  #accordion .cohort__weeks-container__weeks li a {
+    color: #ffffff; }
