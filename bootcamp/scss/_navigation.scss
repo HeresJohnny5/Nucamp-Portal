@@ -1,5 +1,5 @@
 nav {
-  background-color: #fff;
+  background-color: $purple-dark;
   box-shadow: 2px 2px 50px #c9c9c9;
   position: fixed;
   top: 0;
@@ -8,3 +8,13 @@ nav {
   overflow: scroll;
   width: 20rem;
 }
+
+.cohort-title {
+  display: flex;
+
+  .fa-circle {
+    color: $purple-light;
+  }
+}
+
+@import './variables';
