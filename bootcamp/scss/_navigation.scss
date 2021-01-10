@@ -20,6 +20,7 @@ nav {
     &__title {
       display: grid;
       grid-template-columns: 80% 20%;
+      cursor: pointer;
 
       h6 {
         color: $white;
@@ -27,6 +28,11 @@ nav {
 
       .fa-circle {
         color: $purple-light;
+        transition: color .25s ease-in-out;
+      }
+
+      &:hover .fa-circle {
+        color: $purple-hover;
       }
     }
 

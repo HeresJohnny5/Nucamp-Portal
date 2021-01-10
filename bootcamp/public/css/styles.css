@@ -15,11 +15,15 @@ nav {
 
 #accordion .cohort__title {
   display: grid;
-  grid-template-columns: 80% 20%; }
+  grid-template-columns: 80% 20%;
+  cursor: pointer; }
   #accordion .cohort__title h6 {
     color: #ffffff; }
   #accordion .cohort__title .fa-circle {
-    color: #af4ea9; }
+    color: #af4ea9;
+    transition: color .25s ease-in-out; }
+  #accordion .cohort__title:hover .fa-circle {
+    color: #bc6bb7; }
 
 #accordion .cohort__weeks-container__weeks {
   list-style: none; }
