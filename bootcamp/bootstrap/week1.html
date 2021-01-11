@@ -11,12 +11,18 @@
   <!-- CUSTOM STYLES -->
   <link rel="stylesheet" href="../public/css/styles.css" />
   <title>Nucamp Coding Bootcamp</title>
+
+  <style>
+    .grid-example .row>div {
+      border: solid lightgreen;
+    }
+  </style>
 </head>
 
 <body>
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 pt-3 sidebar">
+      <nav class="col-2 pt-3 sidebar">
         <div class="sidebar-sticky">
           <a id="home" href="../index.html">
             <h5>Home</h5>
@@ -76,6 +82,24 @@
             <div class="col">
               <h1>Bootstrap: Week 1</h1>
             </div>
+          </div>
+        </div>
+
+        <div class="container grid-example">
+          <div class="row">
+            <div class="col col-sm-2">One</div>
+            <div class="col col-sm-2">Two</div>
+            <div class="col">Three</div>
+          </div>
+          <div class="row">
+            <div class="col">Four</div>
+            <div class="col col-md-6">Five</div>
+            <div class="col">Six</div>
+          </div>
+          <div class="row">
+            <div class="col-lg">Seven</div>
+            <div class="col-lg">Eight</div>
+            <div class="col-lg">Nine</div>
           </div>
         </div>
       </main>
