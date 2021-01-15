@@ -5,16 +5,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- FONT AWESOME 5-->
-  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css" />
+  <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css" />
   <!-- BOOTSTRAP 4 CSS -->
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
   <!-- CUSTOM STYLES -->
-  <link rel="stylesheet" href="../public/css/styles.css" />
+  <link rel="stylesheet" href="../../public/css/styles.css" />
   <title>Nucamp Coding Bootcamp</title>
 
   <style>
     .grid-example .row>div {
       border: solid lightgreen;
+    }
+
+    #viewport-size {
+      background: lightgreen;
+      padding: 5px;
     }
   </style>
 </head>
@@ -87,6 +92,10 @@
 
         <div class="container grid-example">
           <div class="row">
+            <p>This viewport size is currently: <span id="viewport-size"></span> <span id="breakpointName"></span></p>
+          </div>
+
+          <div class="row">
             <div class="col col-sm-2">One</div>
             <div class="col col-sm-2">Two</div>
             <div class="col">Three</div>
@@ -106,11 +115,12 @@
     </div>
   </div>
 
-  <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <!-- CUSTOM SCRIPTS -->
-  <script src="./public/scripts/navigation.js"></script>
+  <script src="../../public/scripts/navigation.js"></script>
+  <script src="../../public/scripts/bootstrap-w1.js"></script>
 </body>
 
 </html>

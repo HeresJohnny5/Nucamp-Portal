@@ -2,6 +2,7 @@ nav {
   background-color: $purple-dark;
   box-shadow: 2px 2px 50px #c9c9c9;
   height: 100vh;
+  min-width: 200px;
   overflow: scroll;
 
   #home {
