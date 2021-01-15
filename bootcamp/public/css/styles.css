@@ -30,3 +30,22 @@ nav {
   list-style: none; }
   #accordion .cohort__weeks-container__weeks li a {
     color: #ffffff; }
+
+.grid-example .row div {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #e6e2eb;
+  border: 1px solid #c9c1d5; }
+
+.grid-example__directions {
+  border-top: 1px solid #c9c1d5;
+  margin-top: 20px; }
+  .grid-example__directions h3 {
+    margin-top: 20px; }
+  .grid-example__directions ol li {
+    margin-left: 15px; }
+
+#viewport-size {
+  background-color: #af4ea9;
+  color: #ffffff;
+  padding: 8px; }
