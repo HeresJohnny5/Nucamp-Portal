@@ -3,12 +3,22 @@
   margin: 0;
   padding: 0; }
 
+main {
+  transition: all 0.5s ease-in-out; }
+  main.portion-main {
+    transform: translateX(-100px); }
+
 nav {
   background-color: #8a3685;
   box-shadow: 2px 2px 50px #c9c9c9;
   height: 100vh;
   min-width: 200px;
-  overflow: scroll; }
+  overflow: scroll;
+  opacity: 1;
+  transition: all 0.5s ease-in-out; }
+  nav.inactive-sidebar {
+    transform: translateX(-100%);
+    opacity: 0; }
   nav #home:hover {
     text-decoration: none; }
   nav #home h5 {
@@ -29,6 +39,14 @@ nav {
 #accordion .cohort__weeks-container__weeks {
   list-style: none; }
   #accordion .cohort__weeks-container__weeks li a {
+    color: #ffffff; }
+
+.sidebarBtn {
+  background-color: #0096dd;
+  color: #ffffff;
+  transition: all .25s ease-in-out; }
+  .sidebarBtn:hover {
+    background-color: #007db8;
     color: #ffffff; }
 
 .grid-example .row div {

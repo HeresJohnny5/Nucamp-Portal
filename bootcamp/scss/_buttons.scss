@@ -1,0 +1,10 @@
+.sidebarBtn {
+  background-color: $blue;
+  color: $white;
+  transition: all .25s ease-in-out;
+
+  &:hover {
+    background-color: $blue-hover;
+    color: $white;
+  }
+}
