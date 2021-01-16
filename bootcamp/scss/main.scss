@@ -13,6 +13,7 @@ main {
 }
 
 @import './variables';
-@import './navigation';
 @import './buttons';
+@import './_custom-grid';
+@import './navigation';
 @import './bootstrap'

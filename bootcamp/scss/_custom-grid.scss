@@ -1,0 +1,11 @@
+.resources {
+  background-color: $gray;
+  flex-direction: column;
+  padding: 20px;
+
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
