@@ -25,6 +25,7 @@ main {
 
 nav {
   background-color: #8a3685;
+  min-height: 100vh;
   min-width: 200px;
   overflow: scroll;
   opacity: 1;
