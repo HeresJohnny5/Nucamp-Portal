@@ -16,11 +16,13 @@ main {
     background-color: #007db8;
     color: #ffffff; }
 
-.resources {
+.resources,
+.custom-exercises {
   background-color: #f7f7f9;
   flex-direction: column;
   padding: 20px; }
-  .resources ul li {
+  .resources ul li,
+  .custom-exercises ul li {
     list-style: none; }
 
 nav {
