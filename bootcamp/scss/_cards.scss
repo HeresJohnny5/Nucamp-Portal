@@ -1,0 +1,71 @@
+.additions {
+  .card-deck {
+    @media (min-width: 576px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-flow: row wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+
+    .card:first-of-type {
+      margin-left: 0px;
+    }
+
+    .card:nth-child(2) {
+      margin-right: 0px;
+    }
+
+    .card {
+      background-color: $blue-mute;
+      color: $white;
+
+      @media (min-width: 576px) {
+        margin-bottom: 15px;
+      }
+
+      @media (min-width: 768px) {
+        margin-bottom: 0px;
+      }
+
+      .card-body {
+        ul {
+          li {
+            list-style: none;
+
+            a {
+              color: $white;
+              position: relative;
+              padding-bottom: 5px;
+
+              &:before {
+                content: "";
+                position: absolute;
+                background-color: $white;
+                bottom: 0;
+                left: 0;
+                height: 2px;
+                width: 0;
+                visibility: hidden;
+                transition: all 0.5s ease-in-out;
+              }
+
+              &:hover {
+                text-decoration: none;
+              }
+
+              &:hover:before {
+                visibility: visible;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

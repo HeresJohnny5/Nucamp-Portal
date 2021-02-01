@@ -55,20 +55,6 @@ nav {
   #accordion .cohort__weeks-container__weeks li a {
     color: #ffffff; }
 
-.grid-example .row div {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  background-color: #e6e2eb;
-  border: 1px solid #c9c1d5; }
-
-.grid-example__directions {
-  border-top: 1px solid #c9c1d5;
-  margin-top: 30px; }
-  .grid-example__directions h3 {
-    margin-top: 20px; }
-  .grid-example__directions ol li {
-    margin-left: 15px; }
-
 @media (min-width: 576px) {
   .additions .card-deck {
     display: flex;
@@ -80,6 +66,12 @@ nav {
     flex-flow: row wrap;
     margin-right: -15px;
     margin-left: -15px; } }
+
+.additions .card-deck .card:first-of-type {
+  margin-left: 0px; }
+
+.additions .card-deck .card:nth-child(2) {
+  margin-right: 0px; }
 
 .additions .card-deck .card {
   background-color: #2C3F51;
@@ -111,6 +103,20 @@ nav {
       .additions .card-deck .card .card-body ul li a:hover:before {
         visibility: visible;
         width: 100%; }
+
+.grid-example .row div {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #e6e2eb;
+  border: 1px solid #c9c1d5; }
+
+.grid-example__directions {
+  border-top: 1px solid #c9c1d5;
+  margin-top: 30px; }
+  .grid-example__directions h3 {
+    margin-top: 20px; }
+  .grid-example__directions ol li {
+    margin-left: 15px; }
 
 #viewport-size {
   background-color: #af4ea9;
