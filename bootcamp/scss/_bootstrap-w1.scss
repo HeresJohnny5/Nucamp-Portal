@@ -39,7 +39,8 @@
     }
 
     .card {
-      box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+      background-color: $blue-mute;
+      color: $white;
 
       @media (min-width: 576px) {
         margin-bottom: 15px;
@@ -53,6 +54,33 @@
         ul {
           li {
             list-style: none;
+
+            a {
+              color: $white;
+              position: relative;
+              padding-bottom: 5px;
+
+              &:before {
+                content: "";
+                position: absolute;
+                background-color: $white;
+                bottom: 0;
+                left: 0;
+                height: 2px;
+                width: 0;
+                visibility: hidden;
+                transition: all 0.5s ease-in-out;
+              }
+
+              &:hover {
+                text-decoration: none;
+              }
+
+              &:hover:before {
+                visibility: visible;
+                width: 100%;
+              }
+            }
           }
         }
       }
