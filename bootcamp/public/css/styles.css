@@ -17,11 +17,9 @@ main {
     color: #ffffff; }
 
 .custom-exercises {
-  background-color: #f7f7f9;
-  flex-direction: column;
-  padding: 20px; }
-  .custom-exercises ul li {
-    list-style: none; }
+  border: 1px solid #c9c1d5;
+  margin-bottom: 30px;
+  padding: 16px; }
 
 nav {
   background-color: #8a3685;
