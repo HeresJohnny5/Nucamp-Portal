@@ -1,9 +1,9 @@
 nav {
   background-color: $purple-dark;
   min-height: 100vh;
+  height: calc(100vh - 48px);
   min-width: 200px;
   overflow: scroll;
-
   opacity: 1;
   transition: all 0.5s ease-in-out;
 
@@ -55,5 +55,14 @@ nav {
         }
       }
     }
+  }
+}
+
+.breadcrumb-container {
+  margin-left: -15px;
+  margin-right: -15px;
+
+  .breadcrumb {
+    border-radius: 0px;
   }
 }
